@@ -1,52 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Skilled e-learning landing page</title>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-  Get Started
+    <title>Skilled e-learning landing page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- The Header Area -->
+      <div class="container">
+        <header class="header">
+          <nav class="header__menu">
+            <ul class="header__menu-list">
+              <li><a href="#" class="header__menu-item">skilled</a></li>
+              <li><a href="#" class="header__btn">Get Started</a></li>
+            </ul>
+          </nav>
+          <!-- The Hero Area -->
+          <section class="hero">
+            <div class="hero__content-area">
+              <h1 class="hero__title">Maximize skill, minimize budget</h1>
+              <p class="hero__description">
+                Our modern courses across a range of
+                <span class="space">in-demand</span> skills will give you the
+                knowledge you need to live the life you want.
+              </p>
+              <a href="#" class="hero__btn">Get Started</a>
+            </div>
+            <div class="hero__img-area">
+              <img
+                src="./assets/image-hero-mobile-new2.png"
+                alt=""
+                class="hero__img"
+              />
+            </div>
+          </section>
+        </header>
+      </div>
 
-  Maximize skill, minimize budget
+      <!-- The Main Area -->
+      <main>
+        <!-- The Card Area -->
+        <section class="card">
+          <div class="container">
+            <div class="card-grid">
+              <article class="card__item--primary">
+                <h2 class="card__item--primary-title">
+                  Check out our most popular courses!
+                </h2>
+              </article>
 
-  Our modern courses across a range of in-demand skills will give you the 
-  knowledge you need to live the life you want.
+              <article class="card__item">
+                <img
+                  src="./assets/icon-animation.svg"
+                  alt=""
+                  class="card__item-icon"
+                />
+                <h3 class="card__item-title">Animation</h3>
+                <p class="card__item-description">
+                  Learn the latest animation techniques to create stunning
+                  motion design and captivate your audience.
+                </p>
+                <a href="#" class="card__item-link">Get Started</a>
+              </article>
 
-  Get Started
+              <article class="card__item">
+                <img
+                  src="./assets/icon-design.svg"
+                  alt=""
+                  class="card__item-icon"
+                />
+                <h3 class="card__item-title">Design</h3>
+                <p class="card__item-description">
+                  Create beautiful, usable interfaces to help shape the future
+                  of how the web looks.
+                </p>
+                <a href="#" class="card__item-link">Get Started</a>
+              </article>
 
-  Check out our most popular courses!
+              <article class="card__item">
+                <img
+                  src="./assets/icon-photography.svg"
+                  alt=""
+                  class="card__item-icon"
+                />
+                <h3 class="card__item-title">Photography</h3>
+                <p class="card__item-description">
+                  Explore critical fundamentals like lighting, composition, and
+                  focus to capture exceptional photos.
+                </p>
+                <a href="#" class="card__item-link">Get Started</a>
+              </article>
 
-  Animation
-  Learn the latest animation techniques to create stunning motion 
-  design and captivate your audience.
-  Get Started
+              <article class="card__item">
+                <img
+                  src="./assets/icon-crypto.svg"
+                  alt=""
+                  class="card__item-icon"
+                />
+                <h3 class="card__item-title">Crypto</h3>
+                <p class="card__item-description">
+                  All you need to know to get started investing in crypto. Go
+                  from beginner to advanced with this 54 hour course.
+                </p>
+                <a href="#" class="card__item-link">Get Started</a>
+              </article>
 
-  Design
-  Create beautiful, usable interfaces to help shape the future of 
-  how the web looks.
-  Get Started
-
-  Photography
-  Explore critical fundamentals like lighting, composition, and focus 
-  to capture exceptional photos.
-  Get Started
-
-  Crypto
-  All you need to know to get started investing in crypto. Go from beginner 
-  to advanced with this 54 hour course.
-  Get Started
-
-  Business
-  A step-by-step playbook to help you start, scale, and sustain your business 
-  without outside investment.
-  Get Started
-
-  Get Started
-
-</body>
+              <article class="card__item">
+                <img
+                  src="./assets/icon-business.svg"
+                  alt=""
+                  class="card__item-icon"
+                />
+                <h3 class="card__item-title">Business</h3>
+                <p class="card__item-description">
+                  A step-by-step playbook to help you start, scale, and sustain
+                  your business without outside investment.
+                </p>
+                <a href="#" class="card__item-link">Get Started</a>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- The Footer Area -->
+      <footer class="footer">
+        <div class="container">
+          <nav class="footer__menu">
+            <ul class="footer__menu-list">
+              <li><a href="#" class="footer__menu-item">skilled</a></li>
+              <li><a href="#" class="footer__btn">Get Started</a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
