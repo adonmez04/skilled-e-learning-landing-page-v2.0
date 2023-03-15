@@ -1,4 +1,4 @@
-# Frontend Mentor - The Project Name
+# Frontend Mentor - skilled-e-learning-landing-page-v2.0
 
 **Table of Contents**
 
@@ -6,15 +6,15 @@
 
 Welcome to my solution page. I hope you'll find some good implemantions for this project here.
 
-![The Project Name](./The-Preview-Image-in-your-design-directory.jpg)
+![skilled-e-learning-landing-page-v2.0](./preview.jpg)
 
 ## Links
 
-- [My Live Site](My-live-site-in-github.io)
+- [My Live Site](https://adonmez04.github.io/skilled-e-learning-landing-page-v2.0/)
 
-- [My Solution Page](My-Project-Page-in-frontendmentor.io)
+- [My Solution Page](https://www.frontendmentor.io/solutions/skilledelearninglandingpagev20-PmvfRL6Urb)
 
-- [The Challenge Page](Add-the-link-from-then-https://www.frontendmentor.io/challenges)
+- [The Challenge Page](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q)
 
 <!-- ## Overview -->
 
