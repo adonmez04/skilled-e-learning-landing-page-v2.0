@@ -186,5 +186,7 @@
   .btn--footer:visited {
     /* The Background */
     padding: 0.875rem 1.9375rem 0.875rem 2rem;
+    background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+    border-radius: 28px;
   }
 }
