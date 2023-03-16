@@ -135,6 +135,8 @@
   .card__item--primary {
     /* The Background */
     padding: 4rem 2rem 8.625rem;
+    /* The Background */
+    border-radius: 15px;
   }
 
   .card__item-icon {
@@ -156,6 +158,8 @@
     /* The Flexbox */
     display: flex;
     flex-direction: column;
+    /* The Background */
+    border-radius: 15px;
   }
 
   .card__item-title {
