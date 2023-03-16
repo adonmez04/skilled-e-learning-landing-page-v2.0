@@ -12,7 +12,7 @@ Welcome to my solution page. I hope you'll find some good implemantions for this
 
 - [My Live Site](https://adonmez04.github.io/skilled-e-learning-landing-page-v2.0/)
 
-- [My Solution Page](https://www.frontendmentor.io/solutions/skilledelearninglandingpagev20-PmvfRL6Urb)
+- [My Solution Page](https://www.frontendmentor.io/solutions/skilledelearninglandingpagev20-FSFockSUp5)
 
 - [The Challenge Page](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q)
 
