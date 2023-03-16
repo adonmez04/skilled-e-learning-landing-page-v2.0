@@ -1,7 +1,7 @@
 /* THE SETTINGS FOR DESKTOPS */
 /* Above the 375px */
 
-@media (min-width: 1000px) {
+@media (min-width: 62.5em) {
   /********************/
   /* Global Style */
   /********************/
@@ -11,8 +11,8 @@
 
   .wrapper {
     /* The Box Model */
-    min-width: 1440px; /* -> for max-width of the container depending on the design (for the tablet) */
-    padding-top: 24px;
+    min-width: 90rem; /* -> for max-width of the container depending on the design (for the tablet) */
+    padding-top: 1.5rem;
     /* The Flexbox */
     display: flex;
     flex-direction: column;
@@ -34,28 +34,28 @@
 
   .header {
     /* The Box Model */
-    margin-bottom: calc(123px + 85px + 42px);
+    margin-bottom: calc(7.6875rem + 5.3125rem + 2.625rem);
   }
 
   .header__menu {
     /* The Box Model */
-    margin-bottom: 87px;
+    margin-bottom: 5.4375rem;
   }
 
   .menu-item {
     /* The Typography */
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 
   .btn {
     /* The Typography */
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .btn--header:link,
   .btn--header:visited {
     /* The Background */
-    padding: 14px 31px 14px 32px;
+    padding: 0.875rem 1.9375rem 0.875rem 2rem;
   }
   /* The Hero Area */
   /**********************/
@@ -64,30 +64,30 @@
     /* The Grid */
     display: grid;
     grid-template-columns: 41.171171171% 58.828828829%;
-    column-gap: 162px;
+    column-gap: 10.125rem;
     row-gap: 0;
   }
 
   .hero__content-area {
     /* The Box Model */
-    padding-top: 85px;
+    padding-top: 5.3125rem;
   }
 
   .hero__title {
     /* The Typography */
     font-weight: 800;
-    font-size: 56px;
-    line-height: 71px;
+    font-size: 3.5rem;
+    line-height: 4.4375rem;
     color: #13183f;
     /* The Box Model */
-    margin-bottom: 29px;
+    margin-bottom: 1.8125rem;
   }
   .hero__description {
     /* The Typography */
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
     /* The Box Model */
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
   }
 
   .hero__img {
@@ -96,8 +96,8 @@
 
     /* The Positioning */
     position: absolute;
-    top: -147px;
-    left: 732px;
+    top: -9.1875rem;
+    left: 45.75rem;
     z-index: -1;
   }
 
@@ -109,11 +109,11 @@
   .hero__btn:link,
   .hero__btn:visited {
     /* The Typography */
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
     color: #ffffff;
     /* The Background */
-    padding: 19px 31px 16px 32px;
+    padding: 1.1875rem 1.9375rem 1rem 2rem;
   }
 
   /* The Main Area */
@@ -123,18 +123,18 @@
 
   .card {
     /* The Box Model */
-    padding-bottom: 140px;
+    padding-bottom: 8.75rem;
   }
 
   .card-grid {
     /* The CSS Grid */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    column-gap: 30px;
-    row-gap: 80px;
+    grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+    column-gap: 1.875rem;
+    row-gap: 5rem;
   }
   .card__item--primary {
     /* The Background */
-    padding: 64px 32px 138px;
+    padding: 4rem 2rem 8.625rem;
   }
 
   .card__item-icon {
@@ -146,13 +146,13 @@
   .card__item--primary-title {
     /* The Typography */
     font-weight: 800;
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 2rem;
+    line-height: 2.5rem;
     color: #ffffff;
   }
   .card__item {
     /* The Box Model */
-    padding: 64px 32px 40px;
+    padding: 4rem 2rem 2.5rem;
     /* The Flexbox */
     display: flex;
     flex-direction: column;
@@ -160,15 +160,15 @@
 
   .card__item-title {
     /* The Typography */
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
     /* The Box Model */
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
   }
   .card__item-description {
     /* The Typography */
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
   .card__item-link:link,
   .card__item-link:visited {
@@ -180,11 +180,11 @@
   /**********************/
   .footer {
     /* The Box Model */
-    padding: 32px 0;
+    padding: 2rem 0;
   }
   .btn--footer:link,
   .btn--footer:visited {
     /* The Background */
-    padding: 14px 31px 14px 32px;
+    padding: 0.875rem 1.9375rem 0.875rem 2rem;
   }
 }

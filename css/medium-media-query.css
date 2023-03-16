@@ -1,7 +1,7 @@
 /* THE SETTINGS FOR TABLETS */
 /* Above the 375px */
 
-@media (min-width: 500px) {
+@media (min-width: 31.25em) {
   /********************/
   /* Global Style */
   /********************/
@@ -11,8 +11,8 @@
 
   .wrapper {
     /* The Box Model */
-    max-width: 768px; /* -> for max-width of the container depending on the design (for the tablet) */
-    padding-top: 24px;
+    max-width: 48rem; /* -> for max-width of the container depending on the design (for the tablet) */
+    padding-top: 1.5rem;
     /* The Flexbox */
     display: flex;
     flex-direction: column;
@@ -37,11 +37,11 @@
 
   .header {
     /* The Box Model */
-    margin-bottom: calc(123px + 85px);
+    margin-bottom: calc(7.6875rem + 5.3125rem);
   }
   .header__menu {
     /* The Box Model */
-    margin-bottom: 36px;
+    margin-bottom: 2.25rem;
   }
 
   /* The Hero Area */
@@ -54,12 +54,12 @@
 
   .hero__content-area {
     /* The Box Model */
-    padding-top: 65px;
+    padding-top: 4.0625rem;
   }
 
   .hero__title {
     /* The Box Model */
-    margin-bottom: 25px;
+    margin-bottom: 1.5625rem;
   }
 
   .space::before {
@@ -77,8 +77,8 @@
 
     /* The Positioning */
     position: absolute;
-    top: -93px;
-    left: 370px;
+    top: -5.8125rem;
+    left: 23.125rem;
     z-index: -1;
   }
 
@@ -89,21 +89,21 @@
 
   .card {
     /* The Box Model */
-    padding-bottom: 86px;
+    padding-bottom: 5.375rem;
   }
 
   .card-grid {
     /* The CSS Grid */
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    column-gap: 11px;
-    row-gap: 56px;
+    grid-template-columns: repeat(auto-fit, minmax(15.625rem, 1fr));
+    column-gap: 0.6875rem;
+    row-gap: 3.5rem;
   }
   .card__item--primary {
     /* The Background */
-    padding: 56px 21px 139px 32px;
+    padding: 3.5rem 1.3125rem 8.6875rem 2rem;
   }
   .card__item {
     /* The Box Model */
-    padding: 56px 21px 32px 32px;
+    padding: 3.5rem 1.3125rem 2rem 2rem;
   }
 }

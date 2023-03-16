@@ -45,8 +45,8 @@ ul {
 
 .wrapper {
   /* The Box Model */
-  max-width: 375px; /* -> for max-width of the container depending on the design (for the mobile) */
-  padding-top: 16px;
+  max-width: 23.4375rem; /* -> for max-width of the container depending on the design (for the mobile) */
+  padding-top: 1rem;
   /* The Flexbox */
   display: flex;
   flex-direction: column;
@@ -70,11 +70,11 @@ ul {
 
 .header {
   /* The Box Model */
-  margin-bottom: 66px;
+  margin-bottom: 4.125rem;
 }
 .header__menu {
   /* The Box Model */
-  margin-bottom: 38px;
+  margin-bottom: 2.375rem;
 }
 .header__menu-list {
   /* The Flexbox */
@@ -82,8 +82,8 @@ ul {
 .menu-item {
   /* The Typography */
   font-weight: 800;
-  font-size: 28px;
-  line-height: 35px;
+  font-size: 1.75rem;
+  line-height: 2.1875rem;
 }
 .menu-item--header {
   color: #13183f;
@@ -91,16 +91,16 @@ ul {
 .btn {
   /* The Typography */
   font-weight: 700;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 1rem;
+  line-height: 1.75rem;
   color: #ffffff;
 }
 .btn--header:link,
 .btn--header:visited {
   /* The Background */
-  padding: 9px 24px 11px;
+  padding: 0.5625rem 1.5rem 0.6875rem;
   background: #13183f;
-  border-radius: 28px;
+  border-radius: 1.75rem;
 }
 .btn--header:hover,
 .btn--header:active {
@@ -120,21 +120,21 @@ ul {
 .hero__title {
   /* The Typography */
   font-weight: 800;
-  font-size: 40px;
-  line-height: 50px;
+  font-size: 2.5rem;
+  line-height: 3.125rem;
   color: #13183f;
   /* The Box Model */
-  padding-bottom: 1px;
-  margin-bottom: 26px;
+  padding-bottom: 0.0625rem;
+  margin-bottom: 1.625rem;
 }
 .hero__description {
   /* The Typography */
   font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 1.625rem;
   color: #83869a;
   /* The Box Model */
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 .space::before {
   content: "\A";
@@ -144,13 +144,13 @@ ul {
 .hero__btn:visited {
   /* The Typography */
   font-weight: 700;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 1.625rem;
   color: #ffffff;
   /* The Background */
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
   border-radius: 31.5px;
-  padding: 15px 37px 15px 38px;
+  padding: 0.9375rem 2.3125rem 0.9375rem 2.375rem;
 }
 .hero__btn:hover,
 .hero__btn:active {
@@ -164,7 +164,7 @@ ul {
 .hero__img-area {
   /* The Box Model */
   width: 100%;
-  padding: 0 8px;
+  padding: 0 0.5rem;
 }
 .hero__img {
   /* The Box Model */
@@ -180,35 +180,35 @@ ul {
   /* The Background */
   background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
   /* The Box Model */
-  padding-bottom: 80px;
+  padding-bottom: 5rem;
 }
 .card-grid {
   /* The CSS Grid */
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  row-gap: 40px;
+  row-gap: 2.5rem;
 }
 .card__item--primary {
   /* The Background */
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
-  border-radius: 10px;
+  border-radius: 0.625rem;
   /* The Box Model */
-  padding: 24px 29px 32px 28px;
+  padding: 1.5rem 1.8125rem 2rem 1.75rem;
 }
 .card__item--primary-title {
   /* The Typography */
   font-weight: 800;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   color: #ffffff;
 }
 .card__item {
   /* The Background */
   background: #ffffff;
-  box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
-  border-radius: 10px;
+  box-shadow: 0rem 1.5625rem 3.125rem rgba(6, 22, 141, 0.0442381);
+  border-radius: 0.625rem;
   /* The Box Model */
-  padding: 56px 29px 32px 28px;
+  padding: 3.5rem 1.8125rem 2rem 1.75rem;
   /* The Positioning */
   position: relative;
 }
@@ -220,26 +220,26 @@ ul {
 .card__item-title {
   /* The Typography */
   font-weight: 800;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 1.25rem;
+  line-height: 1.5625rem;
   color: #13183f;
   /* The Box Model */
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 .card__item-description {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 1.625rem;
   color: #83869a;
   /* The Box Model */
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 .card__item-link:link,
 .card__item-link:visited {
   /* The Typography */
   font-weight: 700;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   color: #f74780;
 }
 .card__item-link:hover,
@@ -252,7 +252,7 @@ ul {
   /* The Background */
   background: #13183f;
   /* The Box Model */
-  padding: 36px 0;
+  padding: 2.25rem 0;
 }
 .footer__menu {
   /* empty */
@@ -268,8 +268,8 @@ ul {
 .btn--footer:visited {
   /* The Background */
   background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
-  border-radius: 28px;
-  padding: 9px 24px 11px;
+  border-radius: 1.75rem;
+  padding: 0.5625rem 1.5rem 0.6875rem;
 }
 .btn--footer:hover,
 .btn--footer:active {
