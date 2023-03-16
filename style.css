@@ -1,5 +1,5 @@
 /* THE MOBILE FIRST SOLUTION */
-/* Under the XXXpx */
+/* Under the 375px */
 
 /********************/
 /* Global Style */
@@ -23,7 +23,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 a {
   text-decoration: none;
@@ -46,15 +46,19 @@ ul {
 
 .wrapper {
   /* The Box Model */
-  max-width: 375px; /* -> for max-width of the container depending on the design (for mobile) */
+  max-width: 375px; /* -> for max-width of the container depending on the design (for the mobile) */
   padding-top: 16px;
   /* The Flexbox */
   display: flex;
   flex-direction: column;
+
+  overflow-x: hidden;
+  position: relative;
 }
+
 .container {
   /* The Box Model */
-  width: 91.466666%; /* -> for 16px margin right and left of the container and 343px width of the content area depending on the design (for mobile) */
+  width: 91.466666%; /* -> for 16px margin right and left of the container and 343px width of the content area depending on the design (for the mobile) */
   margin: 0 auto;
 }
 
@@ -106,7 +110,10 @@ ul {
 /* The Hero Area */
 /**********************/
 .hero {
-  /* The Flexbox */
+  /* The Grid */
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 46px;
 }
 .hero__content-area {
   /* empty */
@@ -118,7 +125,8 @@ ul {
   line-height: 50px;
   color: #13183f;
   /* The Box Model */
-  margin-bottom: calc(26px + 1px);
+  padding-bottom: 1px;
+  margin-bottom: 26px;
 }
 .hero__description {
   /* The Typography */
@@ -140,8 +148,6 @@ ul {
   font-size: 16px;
   line-height: 26px;
   color: #ffffff;
-  /* The Box Model */
-  margin-bottom: 46px;
   /* The Background */
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
   border-radius: 31.5px;
@@ -166,6 +172,7 @@ ul {
   display: block;
   max-width: 100%;
 }
+
 /* The Main Area */
 /**********************/
 /* The Card Area */

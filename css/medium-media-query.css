@@ -1,0 +1,109 @@
+/* THE SETTINGS FOR TABLETS */
+/* Above the 375px */
+
+@media (min-width: 500px) {
+  /********************/
+  /* Global Style */
+  /********************/
+
+  /* The Layout Settings */
+  /********************/
+
+  .wrapper {
+    /* The Box Model */
+    max-width: 768px; /* -> for max-width of the container depending on the design (for the tablet) */
+    padding-top: 24px;
+    /* The Flexbox */
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    /* The Box Model */
+    width: 89.713541667%; /* -> for 689px width of the content area depending on the design (for the tablet) */
+
+    margin-right: calc(
+      ((100% - 89.713541667%) / 2) + 0.066145833%
+    ); /* -> 39px */
+    margin-left: calc(((100% - 89.713541667%) / 2) - 0.0640625%); /* -> 40px */
+    /* -> for 39px margin-left and 40px margin-right of the container depending on the design (for the tablet) */
+  }
+
+  /********************/
+  /* Components Style */
+  /********************/
+
+  /* The Header Area */
+  /**********************/
+
+  .header {
+    /* The Box Model */
+    margin-bottom: calc(123px + 85px);
+  }
+  .header__menu {
+    /* The Box Model */
+    margin-bottom: 36px;
+  }
+
+  /* The Hero Area */
+  /**********************/
+  .hero {
+    /* The Grid */
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+
+  .hero__content-area {
+    /* The Box Model */
+    padding-top: 65px;
+  }
+
+  .hero__title {
+    /* The Box Model */
+    margin-bottom: 25px;
+  }
+
+  .space::before {
+    content: "";
+  }
+
+  .hero__img-area {
+    /* The Box Model */
+    padding: 0;
+  }
+
+  .hero__img {
+    /* The Positioning */
+    /* transform: scale(1.43) translateX(-5.3%) translateY(-2%); */
+
+    /* The Positioning */
+    position: absolute;
+    top: -93px;
+    left: 370px;
+    z-index: -1;
+  }
+
+  /* The Main Area */
+  /**********************/
+  /* The Card Area */
+  /**********************/
+
+  .card {
+    /* The Box Model */
+    padding-bottom: 86px;
+  }
+
+  .card-grid {
+    /* The CSS Grid */
+    grid-template-columns: repeat(auto-fit, minmax(339px, 1fr));
+    column-gap: 11px;
+    row-gap: 56px;
+  }
+  .card__item--primary {
+    /* The Background */
+    padding: 56px 0 0 32px;
+  }
+  .card__item {
+    /* The Box Model */
+    padding: 56px 21px 32px 32px;
+  }
+}
