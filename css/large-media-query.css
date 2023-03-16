@@ -193,4 +193,13 @@
     background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
     border-radius: 28px;
   }
+  .btn--footer:hover,
+  .btn--footer:active {
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+  }
 }
