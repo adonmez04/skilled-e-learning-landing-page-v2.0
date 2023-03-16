@@ -94,13 +94,13 @@
 
   .card-grid {
     /* The CSS Grid */
-    grid-template-columns: repeat(auto-fit, minmax(339px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     column-gap: 11px;
     row-gap: 56px;
   }
   .card__item--primary {
     /* The Background */
-    padding: 56px 0 0 32px;
+    padding: 56px 21px 139px 32px;
   }
   .card__item {
     /* The Box Model */

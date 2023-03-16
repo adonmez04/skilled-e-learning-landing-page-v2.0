@@ -56,8 +56,6 @@
   .btn--header:visited {
     /* The Background */
     padding: 14px 31px 14px 32px;
-    background: #13183f;
-    border-radius: 28px;
   }
   /* The Hero Area */
   /**********************/
@@ -130,13 +128,19 @@
 
   .card-grid {
     /* The CSS Grid */
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     column-gap: 30px;
     row-gap: 80px;
   }
   .card__item--primary {
     /* The Background */
     padding: 64px 32px 138px;
+  }
+
+  .card__item-icon {
+    /* The Positioning */
+    position: absolute;
+    top: calc(-9% + 1%);
   }
 
   .card__item--primary-title {
